@@ -9,7 +9,7 @@
 
 Available converters:
 
-- **octoconf_to_addin_isec.py**: converts the octoconf csv output file to json following the format expected by the add-in
+- `octoconf_to_addin_isec.py`: converts the octoconf csv output file to json following the format expected by the add-in
 
 ## Maintainer
 
@@ -25,4 +25,4 @@ Copyright (c) 2021-2023 [Nicolas GRELLETY](https://github.com/nillyr)
 
 This software is licensed under GNU GPLv3 license. See `LICENSE` file in the root folder of the project.
 
-Icons made by [Freepik](https://www.freepik.com/ "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
+Icons made by [Good Ware](https://www.flaticon.com/authors/good-ware "Good Ware") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
