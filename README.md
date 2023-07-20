@@ -7,7 +7,7 @@
 
 | :information_source: Information |
 |:-------------------------------------------------------------|
-| This repository is mirrored with a personnal GitLab instance |
+| This repository is mirrored from a personnal GitLab instance |
 
 ## Converters
 
