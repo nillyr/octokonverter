@@ -5,6 +5,10 @@
   <br/><br/>
 </p>
 
+| :information_source: Information |
+|:-------------------------------------------------------------|
+| This repository is mirrored with a personnal GitLab instance |
+
 ## Converters
 
 Available converters:
@@ -13,15 +17,15 @@ Available converters:
 
 ## Maintainer
 
-- [Nicolas GRELLETY](https://github.com/nillyr)
+- Nicolas GRELLETY
 
 ## Authors
 
-- [Nicolas GRELLETY](https://github.com/nillyr)
+- Nicolas GRELLETY
 
 ## Copyright and license
 
-Copyright (c) 2021-2023 [Nicolas GRELLETY](https://github.com/nillyr)
+Copyright (c) 2021 Nicolas GRELLETY
 
 This software is licensed under GNU GPLv3 license. See `LICENSE` file in the root folder of the project.
 
