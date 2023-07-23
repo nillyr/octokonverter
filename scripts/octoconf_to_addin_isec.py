@@ -54,7 +54,7 @@ def convert(input_file: Path, output_file: Path) -> None:
 
     json_dict = {"categories": json_arr}
     with open(output_file, "w", encoding="utf-8") as json_file:
-        json_file.write(json.dumps(json_dict, indent=4))
+        json_file.write(json.dumps(json_dict, indent=4, ensure_ascii=False))
 
 
 if __name__ == "__main__":
