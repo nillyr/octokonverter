@@ -29,7 +29,7 @@ def convert(input_file: Path, output_file: Path) -> None:
                         "rules": [
                             {
                                 "reference": data[2],
-                                "success": data[6],
+                                "success": data[6].lower() == "true",
                                 "name_en": data[3],  # same here
                                 "name_fr": data[3],
                                 "level": data[4],
@@ -44,7 +44,7 @@ def convert(input_file: Path, output_file: Path) -> None:
                             json_arr[i]["rules"].append(
                                 {
                                     "reference": data[2],
-                                    "success": data[6],
+                                    "success": data[6].lower() == "true",
                                     "name_en": data[3],
                                     "name_fr": data[3],
                                     "level": data[4],
