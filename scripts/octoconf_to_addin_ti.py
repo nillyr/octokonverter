@@ -12,7 +12,7 @@ from pathlib import Path
 
 def convert(input_file: Path, output_file: Path) -> None:
     """
-    Converts the output file in csv format to a json file that can be imported by the add-in.
+    Converts the output file in csv format to a json file that can be imported by the Addin-TI.
     """
     categories = []
     json_arr = []
