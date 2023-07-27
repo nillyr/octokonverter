@@ -2,7 +2,7 @@
 # @license https://opensource.org/licenses/GPL-3.0 GNU GPLv3
 # @link https://gitlab.internal.lan/octo-project/octokonverter
 # @link https://github.com/nillyr/octokonverter
-# @since 1.0.0b
+# @since 0.1.0
 
 import argparse
 import csv
