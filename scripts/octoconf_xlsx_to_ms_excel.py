@@ -45,7 +45,6 @@ def replace_chars(input_str):
     input_str = input_str.replace('"', '&quot;')
     input_str = input_str.replace(', &apos;', ',&apos;')
     input_str = input_str.replace(', &quot;', ',&quot;')
-    input_str = input_str.replace('<v></v>', '<v>0</v>')
     return input_str
 
 
@@ -72,7 +71,7 @@ def format_formulae_for_ms_excel(xlsx_folder):
 
 def convert(input_file: Path):
     extract_dir = input_file.parent / f"{input_file.stem}_extract"
-    output_file = input_file.parent / f"{input_file.stem}-ms-excel.xlsx"
+    output_file = input_file.parent / f"{input_file.stem}-ms-excel-compatible.xlsx"
     extract_files_from_xlsx(input_file, extract_dir)
     format_formulae_for_ms_excel(extract_dir)
     create_xlsx_from_folder(extract_dir, output_file)
