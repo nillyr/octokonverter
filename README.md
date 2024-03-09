@@ -5,24 +5,12 @@
   <br/><br/>
 </p>
 
-| :information_source: Information |
-|:-------------------------------------------------------------|
-| This repository is mirrored from a private GitLab instance |
-
 ## Converters
 
 Available converters:
 
 - `octoconf_to_addin_ti.py`: converts the octoconf csv output file to json following the format expected by the Addin-TI
 - `octoconf_to_xlsx_to_ms_excel.py`: converts the octoconf xslx output file to Microsoft Excel xlsx file
-
-## Maintainer
-
-- Nicolas GRELLETY
-
-## Authors
-
-- Nicolas GRELLETY
 
 ## Copyright and license
 
