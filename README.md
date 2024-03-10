@@ -9,7 +9,7 @@
 
 Available converters:
 
-- `octoconf_to_addin_ti.py`: converts the octoconf csv output file to json following the format expected by the Addin-TI
+- `octoconf_to_octoaddins.py`: converts the octoconf csv output file to json following the format expected by the addins
 - `octoconf_to_xlsx_to_ms_excel.py`: converts the octoconf xslx output file to Microsoft Excel xlsx file
 
 ## Copyright and license
